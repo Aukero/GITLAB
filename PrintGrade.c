@@ -29,9 +29,9 @@ void main()
         printf("ID: %5d. Name: %-25s. GPA: %5.2f.\n",
            ID[found_index], Name[found_index],  GPA[found_index]);
 
-      printf("Enter Student ID to Search (0 to End): ");
+      printf("Enter User ID to Search (0 to End): ");
 
       scanf("%d", &SearchID);
   }
-  printf("Bye Bye\n");
+  printf("Goodbye\n");
 }
